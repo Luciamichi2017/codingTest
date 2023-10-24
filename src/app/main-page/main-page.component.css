@@ -220,3 +220,23 @@
     max-width: 100%;
   }
   
+/* responsiveness */
+
+  @media (max-width: 1000px) {
+
+
+  .hero-large-text{
+      margin-left: 50px;
+  }
+  
+  .cta-button{ 
+    margin-left: 50px;
+  }
+  
+  .hero-small-text{
+    margin-left: 50px;
+}
+
+  
+  }
+    
