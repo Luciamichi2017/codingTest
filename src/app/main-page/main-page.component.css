@@ -28,7 +28,7 @@
 
 .hero-small-text{
     font-size: 15px;
-    margin-left: 100px;
+    margin-left: 400px;
     margin-bottom: 0;
 }
 
@@ -39,7 +39,7 @@
 .hero-large-text{
     margin-top: 0;
     font-size: 30px;
-    margin-left: 100px;
+    margin-left: 400px;
 }
 
 .cta-button{ 
@@ -50,7 +50,7 @@
     border-radius: 4px;
     cursor: pointer;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 400px;
     transition: background-color 0.3s;
     display: flex;
     align-items: center;
@@ -144,6 +144,7 @@
     color: #232323;
     font-size: 16px; 
     font-family: 'Khula', sans-serif;
+    margin-bottom: 50px;
   }
 
   .columns-container {
@@ -183,6 +184,7 @@
     color: #a8a8a8;
     font-size: 13px;
     text-align: left;
+    margin-right: 300px;
   }
 
 .column-text-2{
@@ -190,23 +192,31 @@
     color: #a8a8a8;
     font-size: 13px;
     text-align: right;
+    margin-left: 300px;
   }
 
   .row {
-    display: flex; /* Create a two-row layout */
-    align-items: center; /* Vertically align the content of each row */
-    margin-bottom: 20px; /* Add space between rows */
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
   }
   
   .column {
     flex: 1; 
     text-align: center;
-    margin: 50px;
   }
   
+  .image-3, .image-1{
+    margin-right: 100px;
+    float: right;
+  }
+  .image-2{
+    margin-left: 100px;
+    float: left;
+  }
+
   img {
     width: 300px;
-    height: 250px;
     max-width: 100%;
   }
   
